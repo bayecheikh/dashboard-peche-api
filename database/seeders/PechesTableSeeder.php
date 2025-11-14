@@ -11,13 +11,13 @@ class PechesTableSeeder extends Seeder
     public function run()
     {
         $kayar = Site::where('region','Kayar')->first();
-        $capVert = Site::where('region','Cap Vert')->first();
+        $dakar = Site::where('region','Cap Vert')->first();
 
         $peches = [
             ['region'=>'Kayar','espece'=>'Thiof','quantite'=>400,'site_id'=>$kayar->id],
             ['region'=>'Kayar','espece'=>'Sardinelle','quantite'=>600,'site_id'=>$kayar->id],
-            ['region'=>'Dakar','espece'=>'Thiof','quantite'=>200,'site_id'=>$capVert->id],
-            ['region'=>'Dakar','espece'=>'Sardinelle','quantite'=>500,'site_id'=>$capVert->id],
+            ['region'=>'Dakar','espece'=>'Thiof','quantite'=>200,'site_id'=>$dakar->id],
+            ['region'=>'Dakar','espece'=>'Sardinelle','quantite'=>500,'site_id'=>$dakar->id],
         ];
 
         foreach($peches as $p){
