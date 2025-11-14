@@ -16,8 +16,8 @@ class PechesTableSeeder extends Seeder
         $peches = [
             ['region'=>'Kayar','espece'=>'Thiof','quantite'=>400,'site_id'=>$kayar->id],
             ['region'=>'Kayar','espece'=>'Sardinelle','quantite'=>600,'site_id'=>$kayar->id],
-            ['region'=>'Cap Vert','espece'=>'Thiof','quantite'=>200,'site_id'=>$capVert->id],
-            ['region'=>'Cap Vert','espece'=>'Sardinelle','quantite'=>500,'site_id'=>$capVert->id],
+            ['region'=>'Dakar','espece'=>'Thiof','quantite'=>200,'site_id'=>$capVert->id],
+            ['region'=>'Dakar','espece'=>'Sardinelle','quantite'=>500,'site_id'=>$capVert->id],
         ];
 
         foreach($peches as $p){

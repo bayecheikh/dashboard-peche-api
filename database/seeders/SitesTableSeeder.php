@@ -17,8 +17,8 @@ class SitesTableSeeder extends Seeder
                 'lng' => -17.1198
             ],
             [
-                'nom' => 'Port Cap Vert',
-                'region' => 'Cap Vert',
+                'nom' => 'Port de Dakar',
+                'region' => 'Dakar',
                 'lat' => 14.7454,
                 'lng' => -17.5238
             ]
